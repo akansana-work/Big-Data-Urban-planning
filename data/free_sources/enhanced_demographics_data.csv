@@ -1,0 +1,21 @@
+Ward_Name,Zone,Area_km2,Population_2011_Census,Population_2024_Projected,Population_Density_per_km2,Age_0_17_Percent,Age_18_35_Percent,Age_36_55_Percent,Age_55_Plus_Percent,Literacy_Rate_Percent,High_Income_Households_Percent,Households_Count,Male_Population,Female_Population,Working_Population,Data_Source,Projection_Method
+Shivajinagar,Central,12.5,82345,113513,9081.0,18.0,38.0,32.0,12.0,85.0,45.0,27027,59027,54486,47675,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Camp,Central,8.7,65432,90198,10367.6,18.0,38.0,32.0,12.0,85.0,45.0,21476,46903,43295,37883,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Koregaon Park,Central,6.2,45123,62202,10032.6,18.0,38.0,32.0,12.0,85.0,45.0,14810,32345,29857,26125,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Kothrud,West,15.3,156789,230249,15049.0,22.0,35.0,30.0,13.0,82.0,35.0,54821,119729,110520,96705,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Aundh,West,22.1,198456,291439,13187.3,22.0,35.0,30.0,13.0,82.0,35.0,69390,151548,139891,122404,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Baner,West,18.9,123678,219181,11596.9,12.0,45.0,35.0,8.0,92.0,65.0,52186,113974,105207,92056,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Pashan,West,14.2,89456,131369,9251.3,22.0,35.0,30.0,13.0,82.0,35.0,31278,68312,63057,55175,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Sus,West,11.8,67234,98735,8367.4,22.0,35.0,30.0,13.0,82.0,35.0,23508,51342,47393,41469,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Bavdhan,West,19.4,145678,213933,11027.5,22.0,35.0,30.0,13.0,82.0,35.0,50936,111245,102688,89852,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Wakad,West,16.7,134567,197616,11833.3,22.0,35.0,30.0,13.0,82.0,35.0,47051,102760,94856,82999,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Hinjewadi,IT_Corridor,35.6,89234,158140,4442.1,12.0,45.0,35.0,8.0,92.0,65.0,37652,82233,75907,66419,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Kharadi,IT_Corridor,24.3,156789,277860,11434.6,12.0,45.0,35.0,8.0,92.0,65.0,66157,144487,133373,116701,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Wagholi,IT_Corridor,28.9,198345,291276,10078.8,22.0,35.0,30.0,13.0,82.0,35.0,69351,151464,139812,122336,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Yerwada,East,13.4,123456,181299,13529.8,22.0,35.0,30.0,13.0,82.0,35.0,43166,94275,87024,76146,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Hadapsar,East,21.7,234567,344469,15874.1,22.0,35.0,30.0,13.0,82.0,35.0,82016,179124,165345,144677,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Undri,South,26.8,178234,261742,9766.5,22.0,35.0,30.0,13.0,82.0,35.0,62320,136106,125636,109932,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Kondhwa,South,23.5,167890,246552,10491.6,22.0,35.0,30.0,13.0,82.0,35.0,58703,128207,118345,103552,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Wanowrie,South,17.9,134567,197616,11040.0,22.0,35.0,30.0,13.0,82.0,35.0,47051,102760,94856,82999,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Pimpri-Chinchwad,PCMC,45.2,456789,714397,15805.2,15.0,42.0,38.0,5.0,75.0,25.0,170095,371486,342911,300047,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate
+Nigdi,PCMC,32.1,298765,467255,14556.2,15.0,42.0,38.0,5.0,75.0,25.0,111251,242973,224282,196247,Census_India_2011_Projected_2024,Zone_Based_Growth_Rate

@@ -1,0 +1,35 @@
+Ward_ID,Ward_Name,Center_Latitude,Center_Longitude,Area_sqkm,Ward_Type,Development_Level
+PUN_001,Shivajinagar,18.491573,73.950744,6.39,commercial,high
+PUN_002,Kothrud,18.541104,73.774083,9.87,residential_planned,medium
+PUN_003,Warje-Malwadi,18.421636,73.931951,8.41,residential_mixed,medium
+PUN_004,Bibwewadi,18.565284,73.743976,11.73,dense_mixed,medium
+PUN_005,Dhankawadi,18.59277,73.786603,4.64,residential_mixed,medium
+PUN_006,Sahakarnagar,18.449332,73.807033,7.72,dense_mixed,medium
+PUN_007,Baner,18.50426,73.80414,11.12,it_hub,high
+PUN_008,Aundh,18.439628,73.804344,8.66,it_hub,medium
+PUN_009,Pune Cantonment,18.509591,73.913945,4.8,dense_mixed,high
+PUN_010,Camp,18.522446,73.871094,3.42,dense_mixed,high
+PUN_011,Koregaon Park,18.543067,73.777308,2.39,commercial,high
+PUN_012,Yerwada,18.618504,73.95406,10.28,residential_mixed,medium
+PUN_013,Kalyani Nagar,18.47612,73.761113,9.16,residential_mixed,medium
+PUN_014,Viman Nagar,18.506074,73.766529,4.97,commercial,high
+PUN_015,Hadapsar,18.4164,73.941542,5.33,residential_mixed,medium
+PUN_016,Kharadi,18.555217,73.808693,7.68,residential_mixed,medium
+PUN_017,Wagholi,18.529623,73.780493,11.73,residential_mixed,medium
+PUN_018,Mundhwa,18.580104,73.948251,11.05,residential_mixed,medium
+PUN_019,Undri,18.540936,73.944333,3.8,residential_mixed,medium
+PUN_020,Kondhwa,18.452112,73.749454,5.93,residential_mixed,medium
+PUN_021,Wanowrie,18.494698,73.799721,10.46,residential_mixed,medium
+PUN_022,Salisbury Park,18.487642,73.801852,7.88,residential_mixed,medium
+PUN_023,Gultekdi,18.439944,73.917728,3.67,residential_mixed,medium
+PUN_024,Dhayari,18.626902,73.91107,4.79,residential_mixed,medium
+PUN_025,Narhe,18.41002,73.920677,9.36,residential_mixed,medium
+PUN_026,Sus,18.569911,73.910853,8.89,residential_planned,low
+PUN_027,Pashan,18.488021,73.765158,18.36,residential_planned,low
+PUN_028,Bavdhan,18.546549,73.812959,8.76,residential_planned,medium
+PUN_029,Hinjewadi,18.477527,73.811688,12.3,it_hub,high
+PUN_030,Wakad,18.5497,73.936627,13.67,residential_planned,medium
+PUN_031,Pimpri-Chinchwad,18.43523,73.897954,9.85,residential_mixed,medium
+PUN_032,Nigdi,18.532842,73.910786,7.44,residential_mixed,medium
+PUN_033,Akurdi,18.524324,73.834442,3.23,residential_mixed,medium
+PUN_034,Chinchwad,18.432644,73.746387,8.73,residential_mixed,medium

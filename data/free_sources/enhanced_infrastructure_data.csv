@@ -1,0 +1,21 @@
+Ward_Name,Zone,Area_km2,Population,Schools_Government,Schools_Private,Schools_Total,Hospitals_Government,Hospitals_Private,Hospitals_Total,Primary_Health_Centers,Banks_Count,ATMs_Count,Restaurants_Count,Shopping_Malls,Office_Buildings,Bus_Stops,Metro_Stations,Parks_Count,Trees_Estimated,Road_Length_km,Infrastructure_Score,Accessibility_Score,Green_Cover_Score,Data_Source,Last_Updated
+Shivajinagar,Central,12.5,111165,62,27,89,20,13,33,66,53,132,106,4,38,15,1,10,1875,106,46.2,24.3,14.4,OSM_Government_Combined,2025-07-10
+Camp,Central,8.7,88333,50,21,71,16,10,26,52,39,98,79,3,26,10,1,7,1305,74,35.8,18.0,10.0,OSM_Government_Combined,2025-07-10
+Koregaon Park,Central,6.2,60916,34,15,49,11,7,18,36,28,70,55,2,19,7,0,5,930,53,25.0,11.7,7.2,OSM_Government_Combined,2025-07-10
+Kothrud,West,15.3,211665,148,64,212,32,21,53,106,53,132,101,3,8,18,1,12,2295,130,82.5,25.3,17.5,OSM_Government_Combined,2025-07-10
+Aundh,West,22.1,267915,188,80,268,40,27,67,134,71,178,134,4,11,27,0,18,3315,188,106.0,32.7,25.6,OSM_Government_Combined,2025-07-10
+Baner,West,18.9,166965,140,60,200,40,27,67,134,62,155,177,8,94,23,0,15,2835,161,86.0,28.3,21.7,OSM_Government_Combined,2025-07-10
+Pashan,West,14.2,120765,85,36,121,18,12,30,60,39,98,69,3,7,17,0,11,2130,121,50.2,18.7,16.1,OSM_Government_Combined,2025-07-10
+Sus,West,11.8,90765,64,27,91,14,9,23,46,31,78,54,2,6,14,0,9,1770,100,38.5,15.0,13.3,OSM_Government_Combined,2025-07-10
+Bavdhan,West,19.4,196665,138,59,197,29,20,49,98,57,142,104,4,10,23,0,16,2910,165,79.8,26.7,22.6,OSM_Government_Combined,2025-07-10
+Wakad,West,16.7,181665,127,55,182,27,18,45,90,51,128,94,3,8,20,0,13,2505,142,72.8,23.7,19.0,OSM_Government_Combined,2025-07-10
+Hinjewadi,IT_Corridor,35.6,120465,102,44,145,29,19,48,96,84,210,205,14,178,43,0,28,5340,303,76.2,42.3,40.7,OSM_Government_Combined,2025-07-10
+Kharadi,IT_Corridor,24.3,211665,178,76,254,51,34,85,170,79,198,226,10,122,29,0,19,3645,207,109.2,36.0,27.7,OSM_Government_Combined,2025-07-10
+Wagholi,IT_Corridor,28.9,267765,188,80,268,40,27,67,134,82,205,147,6,14,35,0,23,4335,246,110.0,39.0,33.2,OSM_Government_Combined,2025-07-10
+Yerwada,East,13.4,166665,105,45,150,30,20,50,100,44,110,82,3,7,16,0,11,2010,114,63.8,20.0,15.6,OSM_Government_Combined,2025-07-10
+Hadapsar,East,21.7,316665,200,86,285,57,38,95,190,78,195,149,4,11,26,0,17,3255,184,118.8,34.7,24.8,OSM_Government_Combined,2025-07-10
+Undri,South,26.8,240615,169,72,241,36,24,60,120,75,188,134,5,13,32,0,21,4020,228,99.2,35.7,30.6,OSM_Government_Combined,2025-07-10
+Kondhwa,South,23.5,226651,159,68,227,34,23,57,114,68,170,123,5,12,28,0,19,3525,200,92.8,32.0,27.1,OSM_Government_Combined,2025-07-10
+Wanowrie,South,17.9,181665,114,49,163,32,22,54,108,53,132,96,4,9,21,0,14,2685,152,71.0,24.7,20.4,OSM_Government_Combined,2025-07-10
+Pimpri-Chinchwad,PCMC,45.2,616665,259,111,370,74,49,123,246,131,328,222,5,45,54,0,36,6780,384,165.0,61.7,51.9,OSM_Government_Combined,2025-07-10
+Nigdi,PCMC,32.1,403332,169,73,242,49,32,81,162,89,222,149,3,32,39,0,26,4815,273,109.5,42.7,37.1,OSM_Government_Combined,2025-07-10

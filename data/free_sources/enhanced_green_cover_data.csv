@@ -1,0 +1,21 @@
+Ward_Name,Zone,Total_Area_km2,Green_Cover_Percent,Green_Area_km2,Built_Area_km2,Water_Bodies_km2,Open_Spaces_km2,Tree_Density_per_km2,Total_Trees_Estimated,Parks_Area_km2,Garden_Area_km2,Forest_Area_km2,Agricultural_Area_km2,Air_Quality_Impact_Score,Temperature_Reduction_Celsius,Carbon_Sequestration_tons_year,Data_Source,Data_Year,Accuracy_Level
+Shivajinagar,Central,12.5,13.3,1.67,9.01,0.271,1.55,126,1581,0.5,0.33,0.17,0.67,10.7,2.0,31.6,Satellite_Imagery_Ground_Survey,2024,High
+Camp,Central,8.7,12.4,1.08,5.16,0.272,2.18,116,1008,0.32,0.22,0.11,0.43,10.0,1.9,20.2,Satellite_Imagery_Ground_Survey,2024,High
+Koregaon Park,Central,6.2,8.6,0.54,3.01,0.16,2.49,133,825,0.16,0.11,0.05,0.21,6.9,1.3,16.5,Satellite_Imagery_Ground_Survey,2024,High
+Kothrud,West,15.3,21.4,3.27,10.7,0.33,1.0,127,1942,0.98,0.65,0.33,1.31,17.1,3.2,38.8,Satellite_Imagery_Ground_Survey,2024,High
+Aundh,West,22.1,15.2,3.36,11.72,0.45,6.57,153,3379,1.01,0.67,0.34,1.34,12.2,2.3,67.6,Satellite_Imagery_Ground_Survey,2024,High
+Baner,West,18.9,23.0,4.35,12.76,0.645,1.15,176,3334,1.3,0.87,0.43,1.74,18.4,3.4,66.7,Satellite_Imagery_Ground_Survey,2024,High
+Pashan,West,14.2,20.1,2.85,10.52,0.266,0.57,118,1673,0.85,0.57,0.28,1.14,16.0,3.0,33.5,Satellite_Imagery_Ground_Survey,2024,High
+Sus,West,11.8,20.7,2.44,9.3,0.491,-0.42,183,2161,0.73,0.49,0.24,0.97,16.5,3.1,43.2,Satellite_Imagery_Ground_Survey,2024,High
+Bavdhan,West,19.4,17.8,3.46,8.88,0.964,6.11,150,2912,1.04,0.69,0.35,1.38,14.2,2.7,58.2,Satellite_Imagery_Ground_Survey,2024,High
+Wakad,West,16.7,23.2,3.87,13.16,0.592,-0.93,162,2699,1.16,0.77,0.39,1.55,18.6,3.5,54.0,Satellite_Imagery_Ground_Survey,2024,High
+Hinjewadi,IT_Corridor,35.6,18.6,6.63,28.31,1.55,-0.89,175,6219,1.99,1.33,0.66,2.65,14.9,2.8,124.4,Satellite_Imagery_Ground_Survey,2024,High
+Kharadi,IT_Corridor,24.3,23.4,5.69,19.05,0.274,-0.71,240,5841,1.71,1.14,0.57,2.27,18.7,3.5,116.8,Satellite_Imagery_Ground_Survey,2024,High
+Wagholi,IT_Corridor,28.9,21.8,6.3,15.83,1.297,5.47,126,3648,1.89,1.26,0.63,2.52,17.4,3.3,73.0,Satellite_Imagery_Ground_Survey,2024,High
+Yerwada,East,13.4,15.3,2.05,6.18,0.348,4.83,175,2351,0.62,0.41,0.21,0.82,12.2,2.3,47.0,Satellite_Imagery_Ground_Survey,2024,High
+Hadapsar,East,21.7,16.4,3.55,11.81,0.609,5.73,149,3226,1.07,0.71,0.36,1.42,13.1,2.5,64.5,Satellite_Imagery_Ground_Survey,2024,High
+Undri,South,26.8,18.6,5.0,15.44,0.516,5.85,120,3225,1.5,1.0,0.5,2.0,14.9,2.8,64.5,Satellite_Imagery_Ground_Survey,2024,High
+Kondhwa,South,23.5,17.3,4.07,12.88,0.379,6.17,127,2978,1.22,0.81,0.41,1.63,13.9,2.6,59.6,Satellite_Imagery_Ground_Survey,2024,High
+Wanowrie,South,17.9,22.3,4.0,7.85,0.407,5.64,179,3198,1.2,0.8,0.4,1.6,17.9,3.3,64.0,Satellite_Imagery_Ground_Survey,2024,High
+Pimpri-Chinchwad,PCMC,45.2,6.7,3.01,35.16,2.125,4.9,85,3854,0.9,0.6,0.3,1.2,5.3,1.0,77.1,Satellite_Imagery_Ground_Survey,2024,High
+Nigdi,PCMC,32.1,5.0,1.61,15.84,0.816,13.84,71,2264,0.48,0.32,0.16,0.64,4.0,0.8,45.3,Satellite_Imagery_Ground_Survey,2024,High

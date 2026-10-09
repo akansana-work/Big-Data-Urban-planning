@@ -1,0 +1,21 @@
+Ward_Name,Congestion_Index,Average_Speed_kmh,Road_Density_km_per_sqkm,Peak_Hour_Volume,Traffic_Stress_Index,Source,Analysis_Date
+Shivajinagar,82.7,17.8,11.9,1985,0.661,OSM_Road_Network_Analysis,2025-07-10
+Kothrud,55.5,43.9,16.5,4750,0.444,OSM_Road_Network_Analysis,2025-07-10
+Hinjewadi,80.9,24.6,16.8,1785,0.647,OSM_Road_Network_Analysis,2025-07-10
+Baner,61.0,24.1,19.6,7990,0.488,OSM_Road_Network_Analysis,2025-07-10
+Aundh,44.8,42.1,14.4,6190,0.358,OSM_Road_Network_Analysis,2025-07-10
+Camp,80.3,15.4,23.9,3891,0.642,OSM_Road_Network_Analysis,2025-07-10
+Koregaon Park,76.0,17.0,11.4,3636,0.608,OSM_Road_Network_Analysis,2025-07-10
+Yerwada,34.4,37.5,21.0,2374,0.275,OSM_Road_Network_Analysis,2025-07-10
+Hadapsar,37.9,40.0,8.8,2753,0.303,OSM_Road_Network_Analysis,2025-07-10
+Kharadi,62.5,24.0,21.0,6354,0.5,OSM_Road_Network_Analysis,2025-07-10
+Wagholi,52.4,41.0,16.8,6179,0.419,OSM_Road_Network_Analysis,2025-07-10
+Undri,43.1,39.7,20.7,6960,0.345,OSM_Road_Network_Analysis,2025-07-10
+Kondhwa,36.7,42.0,8.7,7637,0.293,OSM_Road_Network_Analysis,2025-07-10
+Wanowrie,37.9,30.1,11.5,2424,0.303,OSM_Road_Network_Analysis,2025-07-10
+Bavdhan,54.8,39.5,16.5,3993,0.438,OSM_Road_Network_Analysis,2025-07-10
+Sus,35.9,34.2,18.4,4578,0.287,OSM_Road_Network_Analysis,2025-07-10
+Pashan,51.9,39.4,19.7,6685,0.416,OSM_Road_Network_Analysis,2025-07-10
+Wakad,50.7,30.7,18.5,7817,0.406,OSM_Road_Network_Analysis,2025-07-10
+Pimpri-Chinchwad,68.4,31.8,21.7,7323,0.547,OSM_Road_Network_Analysis,2025-07-10
+Nigdi,52.9,30.1,23.6,6746,0.423,OSM_Road_Network_Analysis,2025-07-10

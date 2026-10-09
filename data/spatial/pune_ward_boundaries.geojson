@@ -1,0 +1,1229 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_001",
+        "Ward_Name": "Shivajinagar",
+        "Area_sqkm": 6.39,
+        "Ward_Type": "commercial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.940744,
+              18.481572999999997
+            ],
+            [
+              73.960744,
+              18.481572999999997
+            ],
+            [
+              73.960744,
+              18.501573
+            ],
+            [
+              73.940744,
+              18.501573
+            ],
+            [
+              73.940744,
+              18.481572999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_002",
+        "Ward_Name": "Kothrud",
+        "Area_sqkm": 9.87,
+        "Ward_Type": "residential_planned"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.764083,
+              18.531104
+            ],
+            [
+              73.78408300000001,
+              18.531104
+            ],
+            [
+              73.78408300000001,
+              18.551104000000002
+            ],
+            [
+              73.764083,
+              18.551104000000002
+            ],
+            [
+              73.764083,
+              18.531104
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_003",
+        "Ward_Name": "Warje-Malwadi",
+        "Area_sqkm": 8.41,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.92195099999999,
+              18.411635999999998
+            ],
+            [
+              73.941951,
+              18.411635999999998
+            ],
+            [
+              73.941951,
+              18.431636
+            ],
+            [
+              73.92195099999999,
+              18.431636
+            ],
+            [
+              73.92195099999999,
+              18.411635999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_004",
+        "Ward_Name": "Bibwewadi",
+        "Area_sqkm": 11.73,
+        "Ward_Type": "dense_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.733976,
+              18.555283999999997
+            ],
+            [
+              73.75397600000001,
+              18.555283999999997
+            ],
+            [
+              73.75397600000001,
+              18.575284
+            ],
+            [
+              73.733976,
+              18.575284
+            ],
+            [
+              73.733976,
+              18.555283999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_005",
+        "Ward_Name": "Dhankawadi",
+        "Area_sqkm": 4.64,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.776603,
+              18.58277
+            ],
+            [
+              73.796603,
+              18.58277
+            ],
+            [
+              73.796603,
+              18.602770000000003
+            ],
+            [
+              73.776603,
+              18.602770000000003
+            ],
+            [
+              73.776603,
+              18.58277
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_006",
+        "Ward_Name": "Sahakarnagar",
+        "Area_sqkm": 7.72,
+        "Ward_Type": "dense_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.797033,
+              18.439331999999997
+            ],
+            [
+              73.81703300000001,
+              18.439331999999997
+            ],
+            [
+              73.81703300000001,
+              18.459332
+            ],
+            [
+              73.797033,
+              18.459332
+            ],
+            [
+              73.797033,
+              18.439331999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_007",
+        "Ward_Name": "Baner",
+        "Area_sqkm": 11.12,
+        "Ward_Type": "it_hub"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.79414,
+              18.494259999999997
+            ],
+            [
+              73.81414000000001,
+              18.494259999999997
+            ],
+            [
+              73.81414000000001,
+              18.51426
+            ],
+            [
+              73.79414,
+              18.51426
+            ],
+            [
+              73.79414,
+              18.494259999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_008",
+        "Ward_Name": "Aundh",
+        "Area_sqkm": 8.66,
+        "Ward_Type": "it_hub"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.794344,
+              18.429627999999997
+            ],
+            [
+              73.814344,
+              18.429627999999997
+            ],
+            [
+              73.814344,
+              18.449628
+            ],
+            [
+              73.794344,
+              18.449628
+            ],
+            [
+              73.794344,
+              18.429627999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_009",
+        "Ward_Name": "Pune Cantonment",
+        "Area_sqkm": 4.8,
+        "Ward_Type": "dense_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.903945,
+              18.499591
+            ],
+            [
+              73.923945,
+              18.499591
+            ],
+            [
+              73.923945,
+              18.519591000000002
+            ],
+            [
+              73.903945,
+              18.519591000000002
+            ],
+            [
+              73.903945,
+              18.499591
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_010",
+        "Ward_Name": "Camp",
+        "Area_sqkm": 3.42,
+        "Ward_Type": "dense_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.861094,
+              18.512445999999997
+            ],
+            [
+              73.881094,
+              18.512445999999997
+            ],
+            [
+              73.881094,
+              18.532446
+            ],
+            [
+              73.861094,
+              18.532446
+            ],
+            [
+              73.861094,
+              18.512445999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_011",
+        "Ward_Name": "Koregaon Park",
+        "Area_sqkm": 2.39,
+        "Ward_Type": "commercial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.767308,
+              18.533067
+            ],
+            [
+              73.78730800000001,
+              18.533067
+            ],
+            [
+              73.78730800000001,
+              18.553067000000002
+            ],
+            [
+              73.767308,
+              18.553067000000002
+            ],
+            [
+              73.767308,
+              18.533067
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_012",
+        "Ward_Name": "Yerwada",
+        "Area_sqkm": 10.28,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.94406,
+              18.608504
+            ],
+            [
+              73.96406,
+              18.608504
+            ],
+            [
+              73.96406,
+              18.628504000000003
+            ],
+            [
+              73.94406,
+              18.628504000000003
+            ],
+            [
+              73.94406,
+              18.608504
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_013",
+        "Ward_Name": "Kalyani Nagar",
+        "Area_sqkm": 9.16,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.75111299999999,
+              18.46612
+            ],
+            [
+              73.771113,
+              18.46612
+            ],
+            [
+              73.771113,
+              18.486120000000003
+            ],
+            [
+              73.75111299999999,
+              18.486120000000003
+            ],
+            [
+              73.75111299999999,
+              18.46612
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_014",
+        "Ward_Name": "Viman Nagar",
+        "Area_sqkm": 4.97,
+        "Ward_Type": "commercial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.756529,
+              18.496074
+            ],
+            [
+              73.77652900000001,
+              18.496074
+            ],
+            [
+              73.77652900000001,
+              18.516074000000003
+            ],
+            [
+              73.756529,
+              18.516074000000003
+            ],
+            [
+              73.756529,
+              18.496074
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_015",
+        "Ward_Name": "Hadapsar",
+        "Area_sqkm": 5.33,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.931542,
+              18.406399999999998
+            ],
+            [
+              73.951542,
+              18.406399999999998
+            ],
+            [
+              73.951542,
+              18.4264
+            ],
+            [
+              73.931542,
+              18.4264
+            ],
+            [
+              73.931542,
+              18.406399999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_016",
+        "Ward_Name": "Kharadi",
+        "Area_sqkm": 7.68,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.798693,
+              18.545216999999997
+            ],
+            [
+              73.81869300000001,
+              18.545216999999997
+            ],
+            [
+              73.81869300000001,
+              18.565217
+            ],
+            [
+              73.798693,
+              18.565217
+            ],
+            [
+              73.798693,
+              18.545216999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_017",
+        "Ward_Name": "Wagholi",
+        "Area_sqkm": 11.73,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.770493,
+              18.519623
+            ],
+            [
+              73.79049300000001,
+              18.519623
+            ],
+            [
+              73.79049300000001,
+              18.539623000000002
+            ],
+            [
+              73.770493,
+              18.539623000000002
+            ],
+            [
+              73.770493,
+              18.519623
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_018",
+        "Ward_Name": "Mundhwa",
+        "Area_sqkm": 11.05,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.938251,
+              18.570103999999997
+            ],
+            [
+              73.958251,
+              18.570103999999997
+            ],
+            [
+              73.958251,
+              18.590104
+            ],
+            [
+              73.938251,
+              18.590104
+            ],
+            [
+              73.938251,
+              18.570103999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_019",
+        "Ward_Name": "Undri",
+        "Area_sqkm": 3.8,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.934333,
+              18.530935999999997
+            ],
+            [
+              73.954333,
+              18.530935999999997
+            ],
+            [
+              73.954333,
+              18.550936
+            ],
+            [
+              73.934333,
+              18.550936
+            ],
+            [
+              73.934333,
+              18.530935999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_020",
+        "Ward_Name": "Kondhwa",
+        "Area_sqkm": 5.93,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.739454,
+              18.442111999999998
+            ],
+            [
+              73.759454,
+              18.442111999999998
+            ],
+            [
+              73.759454,
+              18.462112
+            ],
+            [
+              73.739454,
+              18.462112
+            ],
+            [
+              73.739454,
+              18.442111999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_021",
+        "Ward_Name": "Wanowrie",
+        "Area_sqkm": 10.46,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.789721,
+              18.484697999999998
+            ],
+            [
+              73.80972100000001,
+              18.484697999999998
+            ],
+            [
+              73.80972100000001,
+              18.504698
+            ],
+            [
+              73.789721,
+              18.504698
+            ],
+            [
+              73.789721,
+              18.484697999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_022",
+        "Ward_Name": "Salisbury Park",
+        "Area_sqkm": 7.88,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.79185199999999,
+              18.477642
+            ],
+            [
+              73.811852,
+              18.477642
+            ],
+            [
+              73.811852,
+              18.497642000000003
+            ],
+            [
+              73.79185199999999,
+              18.497642000000003
+            ],
+            [
+              73.79185199999999,
+              18.477642
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_023",
+        "Ward_Name": "Gultekdi",
+        "Area_sqkm": 3.67,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.90772799999999,
+              18.429944
+            ],
+            [
+              73.927728,
+              18.429944
+            ],
+            [
+              73.927728,
+              18.449944000000002
+            ],
+            [
+              73.90772799999999,
+              18.449944000000002
+            ],
+            [
+              73.90772799999999,
+              18.429944
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_024",
+        "Ward_Name": "Dhayari",
+        "Area_sqkm": 4.79,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.90106999999999,
+              18.616902
+            ],
+            [
+              73.92107,
+              18.616902
+            ],
+            [
+              73.92107,
+              18.636902000000003
+            ],
+            [
+              73.90106999999999,
+              18.636902000000003
+            ],
+            [
+              73.90106999999999,
+              18.616902
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_025",
+        "Ward_Name": "Narhe",
+        "Area_sqkm": 9.36,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.91067699999999,
+              18.400019999999998
+            ],
+            [
+              73.930677,
+              18.400019999999998
+            ],
+            [
+              73.930677,
+              18.42002
+            ],
+            [
+              73.91067699999999,
+              18.42002
+            ],
+            [
+              73.91067699999999,
+              18.400019999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_026",
+        "Ward_Name": "Sus",
+        "Area_sqkm": 8.89,
+        "Ward_Type": "residential_planned"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.900853,
+              18.559911
+            ],
+            [
+              73.92085300000001,
+              18.559911
+            ],
+            [
+              73.92085300000001,
+              18.579911000000003
+            ],
+            [
+              73.900853,
+              18.579911000000003
+            ],
+            [
+              73.900853,
+              18.559911
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_027",
+        "Ward_Name": "Pashan",
+        "Area_sqkm": 18.36,
+        "Ward_Type": "residential_planned"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.755158,
+              18.478021
+            ],
+            [
+              73.775158,
+              18.478021
+            ],
+            [
+              73.775158,
+              18.498021
+            ],
+            [
+              73.755158,
+              18.498021
+            ],
+            [
+              73.755158,
+              18.478021
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_028",
+        "Ward_Name": "Bavdhan",
+        "Area_sqkm": 8.76,
+        "Ward_Type": "residential_planned"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.802959,
+              18.536548999999997
+            ],
+            [
+              73.82295900000001,
+              18.536548999999997
+            ],
+            [
+              73.82295900000001,
+              18.556549
+            ],
+            [
+              73.802959,
+              18.556549
+            ],
+            [
+              73.802959,
+              18.536548999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_029",
+        "Ward_Name": "Hinjewadi",
+        "Area_sqkm": 12.3,
+        "Ward_Type": "it_hub"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.801688,
+              18.467526999999997
+            ],
+            [
+              73.82168800000001,
+              18.467526999999997
+            ],
+            [
+              73.82168800000001,
+              18.487527
+            ],
+            [
+              73.801688,
+              18.487527
+            ],
+            [
+              73.801688,
+              18.467526999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_030",
+        "Ward_Name": "Wakad",
+        "Area_sqkm": 13.67,
+        "Ward_Type": "residential_planned"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.926627,
+              18.5397
+            ],
+            [
+              73.946627,
+              18.5397
+            ],
+            [
+              73.946627,
+              18.559700000000003
+            ],
+            [
+              73.926627,
+              18.559700000000003
+            ],
+            [
+              73.926627,
+              18.5397
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_031",
+        "Ward_Name": "Pimpri-Chinchwad",
+        "Area_sqkm": 9.85,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.887954,
+              18.42523
+            ],
+            [
+              73.907954,
+              18.42523
+            ],
+            [
+              73.907954,
+              18.445230000000002
+            ],
+            [
+              73.887954,
+              18.445230000000002
+            ],
+            [
+              73.887954,
+              18.42523
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_032",
+        "Ward_Name": "Nigdi",
+        "Area_sqkm": 7.44,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.900786,
+              18.522841999999997
+            ],
+            [
+              73.920786,
+              18.522841999999997
+            ],
+            [
+              73.920786,
+              18.542842
+            ],
+            [
+              73.900786,
+              18.542842
+            ],
+            [
+              73.900786,
+              18.522841999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_033",
+        "Ward_Name": "Akurdi",
+        "Area_sqkm": 3.23,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.82444199999999,
+              18.514324
+            ],
+            [
+              73.844442,
+              18.514324
+            ],
+            [
+              73.844442,
+              18.534324
+            ],
+            [
+              73.82444199999999,
+              18.534324
+            ],
+            [
+              73.82444199999999,
+              18.514324
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_ID": "PUN_034",
+        "Ward_Name": "Chinchwad",
+        "Area_sqkm": 8.73,
+        "Ward_Type": "residential_mixed"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.736387,
+              18.422644
+            ],
+            [
+              73.756387,
+              18.422644
+            ],
+            [
+              73.756387,
+              18.442644
+            ],
+            [
+              73.736387,
+              18.442644
+            ],
+            [
+              73.736387,
+              18.422644
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

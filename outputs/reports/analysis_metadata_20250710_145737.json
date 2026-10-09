@@ -1,0 +1,18 @@
+{
+  "analysis_date": "2025-07-10T14:57:37.153065",
+  "notebook_version": "1.0",
+  "python_packages": [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "geopandas",
+    "folium",
+    "plotly"
+  ],
+  "data_sources": [
+    "simulated_pune_data"
+  ],
+  "clustering_algorithm": "k-means",
+  "number_of_clusters": 3,
+  "validation_method": "silhouette_analysis"
+}

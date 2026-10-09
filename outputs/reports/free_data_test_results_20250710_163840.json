@@ -1,0 +1,70 @@
+{
+  "test_summary": {
+    "timestamp": "2025-07-10 16:38:40",
+    "datasets_tested": 5,
+    "final_score": 93.614,
+    "status": "\ud83d\udfe2 EXCELLENT",
+    "quality_results": {
+      "pollution": {
+        "records": 600,
+        "features": 15,
+        "completeness": 100.0,
+        "wards": 20,
+        "quality_score": 97.5
+      },
+      "demographics": {
+        "records": 20,
+        "features": 18,
+        "completeness": 100.0,
+        "wards": 20,
+        "quality_score": 99.0
+      },
+      "infrastructure": {
+        "records": 20,
+        "features": 26,
+        "completeness": 100.0,
+        "wards": 20,
+        "quality_score": 98.9
+      },
+      "traffic": {
+        "records": 960,
+        "features": 13,
+        "completeness": 100.0,
+        "wards": 20,
+        "quality_score": 95.9
+      },
+      "green_cover": {
+        "records": 20,
+        "features": 20,
+        "completeness": 100.0,
+        "wards": 20,
+        "quality_score": 99.05
+      }
+    },
+    "integration_success": true,
+    "spatial_consistency": true,
+    "temporal_consistency": false,
+    "domain_validation": {
+      "pollution": {
+        "valid": true,
+        "issues": []
+      },
+      "demographics": {
+        "valid": true,
+        "issues": []
+      },
+      "infrastructure": {
+        "valid": true,
+        "issues": []
+      },
+      "traffic": {
+        "valid": true,
+        "issues": []
+      },
+      "green_cover": {
+        "valid": true,
+        "issues": []
+      }
+    }
+  }
+}

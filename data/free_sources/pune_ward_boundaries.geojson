@@ -1,0 +1,725 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Shivajinagar",
+        "Ward_Type": "commercial",
+        "Center_Lat": 18.5204,
+        "Center_Lng": 73.8567
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.8467,
+              18.510399999999997
+            ],
+            [
+              73.86670000000001,
+              18.510399999999997
+            ],
+            [
+              73.86670000000001,
+              18.5304
+            ],
+            [
+              73.8467,
+              18.5304
+            ],
+            [
+              73.8467,
+              18.510399999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Kothrud",
+        "Ward_Type": "residential",
+        "Center_Lat": 18.5074,
+        "Center_Lng": 73.8077
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.79769999999999,
+              18.4974
+            ],
+            [
+              73.8177,
+              18.4974
+            ],
+            [
+              73.8177,
+              18.517400000000002
+            ],
+            [
+              73.79769999999999,
+              18.517400000000002
+            ],
+            [
+              73.79769999999999,
+              18.4974
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Hinjewadi",
+        "Ward_Type": "it_hub",
+        "Center_Lat": 18.5912,
+        "Center_Lng": 73.7389
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7289,
+              18.5812
+            ],
+            [
+              73.7489,
+              18.5812
+            ],
+            [
+              73.7489,
+              18.601200000000002
+            ],
+            [
+              73.7289,
+              18.601200000000002
+            ],
+            [
+              73.7289,
+              18.5812
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Baner",
+        "Ward_Type": "it_hub",
+        "Center_Lat": 18.5606,
+        "Center_Lng": 73.7872
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7772,
+              18.5506
+            ],
+            [
+              73.7972,
+              18.5506
+            ],
+            [
+              73.7972,
+              18.570600000000002
+            ],
+            [
+              73.7772,
+              18.570600000000002
+            ],
+            [
+              73.7772,
+              18.5506
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Aundh",
+        "Ward_Type": "residential",
+        "Center_Lat": 18.5579,
+        "Center_Lng": 73.8079
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7979,
+              18.5479
+            ],
+            [
+              73.81790000000001,
+              18.5479
+            ],
+            [
+              73.81790000000001,
+              18.5679
+            ],
+            [
+              73.7979,
+              18.5679
+            ],
+            [
+              73.7979,
+              18.5479
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Camp",
+        "Ward_Type": "commercial",
+        "Center_Lat": 18.5195,
+        "Center_Lng": 73.8553
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.8453,
+              18.5095
+            ],
+            [
+              73.8653,
+              18.5095
+            ],
+            [
+              73.8653,
+              18.529500000000002
+            ],
+            [
+              73.8453,
+              18.529500000000002
+            ],
+            [
+              73.8453,
+              18.5095
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Koregaon Park",
+        "Ward_Type": "commercial",
+        "Center_Lat": 18.5362,
+        "Center_Lng": 73.8847
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.87469999999999,
+              18.5262
+            ],
+            [
+              73.8947,
+              18.5262
+            ],
+            [
+              73.8947,
+              18.546200000000002
+            ],
+            [
+              73.87469999999999,
+              18.546200000000002
+            ],
+            [
+              73.87469999999999,
+              18.5262
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Yerwada",
+        "Ward_Type": "mixed",
+        "Center_Lat": 18.5569,
+        "Center_Lng": 73.8886
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.87859999999999,
+              18.546899999999997
+            ],
+            [
+              73.8986,
+              18.546899999999997
+            ],
+            [
+              73.8986,
+              18.5669
+            ],
+            [
+              73.87859999999999,
+              18.5669
+            ],
+            [
+              73.87859999999999,
+              18.546899999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Hadapsar",
+        "Ward_Type": "mixed",
+        "Center_Lat": 18.5089,
+        "Center_Lng": 73.9262
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.91619999999999,
+              18.4989
+            ],
+            [
+              73.9362,
+              18.4989
+            ],
+            [
+              73.9362,
+              18.518900000000002
+            ],
+            [
+              73.91619999999999,
+              18.518900000000002
+            ],
+            [
+              73.91619999999999,
+              18.4989
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Kharadi",
+        "Ward_Type": "it_hub",
+        "Center_Lat": 18.5515,
+        "Center_Lng": 73.9475
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.9375,
+              18.5415
+            ],
+            [
+              73.95750000000001,
+              18.5415
+            ],
+            [
+              73.95750000000001,
+              18.561500000000002
+            ],
+            [
+              73.9375,
+              18.561500000000002
+            ],
+            [
+              73.9375,
+              18.5415
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Wagholi",
+        "Ward_Type": "residential",
+        "Center_Lat": 18.5769,
+        "Center_Lng": 73.98
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.97,
+              18.566899999999997
+            ],
+            [
+              73.99000000000001,
+              18.566899999999997
+            ],
+            [
+              73.99000000000001,
+              18.5869
+            ],
+            [
+              73.97,
+              18.5869
+            ],
+            [
+              73.97,
+              18.566899999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Undri",
+        "Ward_Type": "residential",
+        "Center_Lat": 18.4746,
+        "Center_Lng": 73.9896
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.97959999999999,
+              18.464599999999997
+            ],
+            [
+              73.9996,
+              18.464599999999997
+            ],
+            [
+              73.9996,
+              18.4846
+            ],
+            [
+              73.97959999999999,
+              18.4846
+            ],
+            [
+              73.97959999999999,
+              18.464599999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Kondhwa",
+        "Ward_Type": "residential",
+        "Center_Lat": 18.4681,
+        "Center_Lng": 73.8823
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.8723,
+              18.458099999999998
+            ],
+            [
+              73.8923,
+              18.458099999999998
+            ],
+            [
+              73.8923,
+              18.4781
+            ],
+            [
+              73.8723,
+              18.4781
+            ],
+            [
+              73.8723,
+              18.458099999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Wanowrie",
+        "Ward_Type": "mixed",
+        "Center_Lat": 18.493,
+        "Center_Lng": 73.8958
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.88579999999999,
+              18.482999999999997
+            ],
+            [
+              73.9058,
+              18.482999999999997
+            ],
+            [
+              73.9058,
+              18.503
+            ],
+            [
+              73.88579999999999,
+              18.503
+            ],
+            [
+              73.88579999999999,
+              18.482999999999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Bavdhan",
+        "Ward_Type": "residential",
+        "Center_Lat": 18.5073,
+        "Center_Lng": 73.7698
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7598,
+              18.4973
+            ],
+            [
+              73.77980000000001,
+              18.4973
+            ],
+            [
+              73.77980000000001,
+              18.517300000000002
+            ],
+            [
+              73.7598,
+              18.517300000000002
+            ],
+            [
+              73.7598,
+              18.4973
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Sus",
+        "Ward_Type": "residential",
+        "Center_Lat": 18.5256,
+        "Center_Lng": 73.7668
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7568,
+              18.5156
+            ],
+            [
+              73.77680000000001,
+              18.5156
+            ],
+            [
+              73.77680000000001,
+              18.535600000000002
+            ],
+            [
+              73.7568,
+              18.535600000000002
+            ],
+            [
+              73.7568,
+              18.5156
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Pashan",
+        "Ward_Type": "residential",
+        "Center_Lat": 18.5367,
+        "Center_Lng": 73.806
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.79599999999999,
+              18.526699999999998
+            ],
+            [
+              73.816,
+              18.526699999999998
+            ],
+            [
+              73.816,
+              18.5467
+            ],
+            [
+              73.79599999999999,
+              18.5467
+            ],
+            [
+              73.79599999999999,
+              18.526699999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Wakad",
+        "Ward_Type": "residential",
+        "Center_Lat": 18.5974,
+        "Center_Lng": 73.7898
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7798,
+              18.5874
+            ],
+            [
+              73.7998,
+              18.5874
+            ],
+            [
+              73.7998,
+              18.607400000000002
+            ],
+            [
+              73.7798,
+              18.607400000000002
+            ],
+            [
+              73.7798,
+              18.5874
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Pimpri-Chinchwad",
+        "Ward_Type": "industrial",
+        "Center_Lat": 18.6298,
+        "Center_Lng": 73.7997
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7897,
+              18.619799999999998
+            ],
+            [
+              73.8097,
+              18.619799999999998
+            ],
+            [
+              73.8097,
+              18.6398
+            ],
+            [
+              73.7897,
+              18.6398
+            ],
+            [
+              73.7897,
+              18.619799999999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Ward_Name": "Nigdi",
+        "Ward_Type": "industrial",
+        "Center_Lat": 18.6591,
+        "Center_Lng": 73.7791
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.7691,
+              18.649099999999997
+            ],
+            [
+              73.7891,
+              18.649099999999997
+            ],
+            [
+              73.7891,
+              18.6691
+            ],
+            [
+              73.7691,
+              18.6691
+            ],
+            [
+              73.7691,
+              18.649099999999997
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

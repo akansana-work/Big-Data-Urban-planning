@@ -1,0 +1,39 @@
+{
+  "data_loading_summary": {
+    "timestamp": "2025-07-10 16:38:40",
+    "total_datasets": 5,
+    "data_sources": "FREE_GOVERNMENT_OPEN_SOURCE",
+    "datasets": {
+      "pollution": {
+        "records": 600,
+        "columns": 15,
+        "wards_covered": 20,
+        "file_size_mb": 0.27
+      },
+      "demographics": {
+        "records": 20,
+        "columns": 18,
+        "wards_covered": 20,
+        "file_size_mb": 0.01
+      },
+      "infrastructure": {
+        "records": 20,
+        "columns": 26,
+        "wards_covered": 20,
+        "file_size_mb": 0.01
+      },
+      "traffic": {
+        "records": 960,
+        "columns": 13,
+        "wards_covered": 20,
+        "file_size_mb": 0.41
+      },
+      "green_cover": {
+        "records": 20,
+        "columns": 20,
+        "wards_covered": 20,
+        "file_size_mb": 0.01
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+Ward_ID,Ward_Name,Green_Cover_Percentage,Tree_Count_per_sqkm,Parks_Count,Water_Bodies_Count,Open_Spaces_sqkm
+PUN_001,Shivajinagar,13.9,471,4,0,0.89
+PUN_002,Kothrud,35.0,860,7,1,3.45
+PUN_003,Warje-Malwadi,18.4,593,13,2,1.54
+PUN_004,Bibwewadi,10.7,334,5,1,1.25
+PUN_005,Dhankawadi,19.1,422,12,4,0.89
+PUN_006,Sahakarnagar,10.0,573,6,4,0.77
+PUN_007,Baner,17.3,547,5,2,1.92
+PUN_008,Aundh,16.3,883,9,0,1.41
+PUN_009,Pune Cantonment,6.2,409,9,4,0.3
+PUN_010,Camp,19.7,244,3,3,0.67
+PUN_011,Koregaon Park,19.5,546,7,0,0.47
+PUN_012,Yerwada,17.4,661,10,1,1.78
+PUN_013,Kalyani Nagar,18.4,585,4,4,1.68
+PUN_014,Viman Nagar,16.5,274,7,3,0.82
+PUN_015,Hadapsar,16.4,553,2,3,0.87
+PUN_016,Kharadi,11.7,605,7,4,0.9
+PUN_017,Wagholi,17.6,766,14,2,2.06
+PUN_018,Mundhwa,18.9,484,9,1,2.09
+PUN_019,Undri,18.2,574,3,4,0.69
+PUN_020,Kondhwa,20.3,343,6,0,1.2
+PUN_021,Wanowrie,21.4,597,9,2,2.24
+PUN_022,Salisbury Park,15.2,764,13,3,1.2
+PUN_023,Gultekdi,16.1,766,12,0,0.59
+PUN_024,Dhayari,13.1,489,2,3,0.63
+PUN_025,Narhe,22.6,369,10,4,2.12
+PUN_026,Sus,29.0,914,6,4,2.58
+PUN_027,Pashan,41.3,1265,11,3,7.58
+PUN_028,Bavdhan,31.3,1211,3,2,2.74
+PUN_029,Hinjewadi,24.4,723,2,0,3.0
+PUN_030,Wakad,32.1,1074,3,4,4.39
+PUN_031,Pimpri-Chinchwad,23.6,612,4,2,2.32
+PUN_032,Nigdi,19.4,467,5,4,1.44
+PUN_033,Akurdi,17.4,670,12,3,0.56
+PUN_034,Chinchwad,25.0,676,14,4,2.18

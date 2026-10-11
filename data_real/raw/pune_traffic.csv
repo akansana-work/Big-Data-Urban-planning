@@ -1,0 +1,15 @@
+Ward_ID,Ward_Name,Congestion_Index,Road_Length_km,Road_Network_Density,People_per_Road_km,Bus_Stops_per_sqkm
+PMC_01,Aundh,0.0,350.2,8.75,517.0,2.92
+PMC_02,Ghole Road,13.3,194.1,13.41,884.0,2.9
+PMC_03,Kothrud-Karve Road,20.8,191.7,11.71,1092.0,3.24
+PMC_04,Warje-Karve Nagar,16.5,240.3,16.38,971.0,0.95
+PMC_05,Dhole Patil Road,7.8,212.7,11.78,731.0,1.44
+PMC_06,Yerawada-Sangamwadi,14.5,286.0,8.57,916.0,0.45
+PMC_07,Nagar Road,4.6,371.3,14.46,645.0,0.58
+PMC_08,Kasba-Vishrambaugwada,54.3,88.6,22.66,2014.0,10.74
+PMC_09,Tilak Road,22.5,213.0,13.12,1138.0,2.83
+PMC_10,Sahakarnagar,45.5,116.0,18.99,1771.0,2.95
+PMC_11,Bibwewadi-Kondhwa,3.7,483.5,16.11,619.0,0.57
+PMC_12,Bhavani Peth,100.0,58.9,21.11,3276.0,3.58
+PMC_13,Hadapsar,24.9,270.0,15.3,1203.0,0.23
+PMC_14,Dhankawadi,14.5,258.4,22.14,916.0,2.23

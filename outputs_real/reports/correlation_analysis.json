@@ -1,0 +1,121 @@
+{
+  "correlation_matrix": {
+    "Population_Density_Calc": {
+      "Population_Density_Calc": 1.0,
+      "AQI": 0.25581193771873273,
+      "Congestion_Index": 0.9785263299738238,
+      "Green_Cover_Percentage": -0.394140638535864,
+      "Infrastructure_Density_Calc": 0.7113384815591189,
+      "Traffic_Stress_Index": 0.9785263299738238,
+      "Environmental_Quality_Score": -0.3932435335331591,
+      "Quality_of_Life_Index": -0.9430466955932283,
+      "Literacy_Rate": 0.14951050874497337
+    },
+    "AQI": {
+      "Population_Density_Calc": 0.25581193771873273,
+      "AQI": 1.0,
+      "Congestion_Index": 0.30333192547560656,
+      "Green_Cover_Percentage": -0.41920722219840506,
+      "Infrastructure_Density_Calc": 0.5665366105006446,
+      "Traffic_Stress_Index": 0.30333192547560656,
+      "Environmental_Quality_Score": -0.8059545287449016,
+      "Quality_of_Life_Index": -0.5063384608173757,
+      "Literacy_Rate": -0.15841525748110444
+    },
+    "Congestion_Index": {
+      "Population_Density_Calc": 0.9785263299738238,
+      "AQI": 0.30333192547560656,
+      "Congestion_Index": 1.0,
+      "Green_Cover_Percentage": -0.32619213515430323,
+      "Infrastructure_Density_Calc": 0.6620632601407945,
+      "Traffic_Stress_Index": 1.0,
+      "Environmental_Quality_Score": -0.37424857444595283,
+      "Quality_of_Life_Index": -0.9538927066746339,
+      "Literacy_Rate": 0.02441777647109913
+    },
+    "Green_Cover_Percentage": {
+      "Population_Density_Calc": -0.394140638535864,
+      "AQI": -0.41920722219840506,
+      "Congestion_Index": -0.32619213515430323,
+      "Green_Cover_Percentage": 1.0,
+      "Infrastructure_Density_Calc": -0.2802559834160226,
+      "Traffic_Stress_Index": -0.32619213515430323,
+      "Environmental_Quality_Score": 0.8753127066645071,
+      "Quality_of_Life_Index": 0.5588612853250865,
+      "Literacy_Rate": 0.11172592988562298
+    },
+    "Infrastructure_Density_Calc": {
+      "Population_Density_Calc": 0.7113384815591189,
+      "AQI": 0.5665366105006446,
+      "Congestion_Index": 0.6620632601407945,
+      "Green_Cover_Percentage": -0.2802559834160226,
+      "Infrastructure_Density_Calc": 1.0,
+      "Traffic_Stress_Index": 0.6620632601407945,
+      "Environmental_Quality_Score": -0.48448364473339145,
+      "Quality_of_Life_Index": -0.7002324792860474,
+      "Literacy_Rate": 0.3821630979917925
+    },
+    "Traffic_Stress_Index": {
+      "Population_Density_Calc": 0.9785263299738238,
+      "AQI": 0.30333192547560656,
+      "Congestion_Index": 1.0,
+      "Green_Cover_Percentage": -0.32619213515430323,
+      "Infrastructure_Density_Calc": 0.6620632601407945,
+      "Traffic_Stress_Index": 1.0,
+      "Environmental_Quality_Score": -0.37424857444595283,
+      "Quality_of_Life_Index": -0.9538927066746339,
+      "Literacy_Rate": 0.02441777647109913
+    },
+    "Environmental_Quality_Score": {
+      "Population_Density_Calc": -0.3932435335331591,
+      "AQI": -0.8059545287449016,
+      "Congestion_Index": -0.37424857444595283,
+      "Green_Cover_Percentage": 0.8753127066645071,
+      "Infrastructure_Density_Calc": -0.48448364473339145,
+      "Traffic_Stress_Index": -0.37424857444595283,
+      "Environmental_Quality_Score": 1.0,
+      "Quality_of_Life_Index": 0.634081848975657,
+      "Literacy_Rate": 0.15722388645318683
+    },
+    "Quality_of_Life_Index": {
+      "Population_Density_Calc": -0.9430466955932283,
+      "AQI": -0.5063384608173757,
+      "Congestion_Index": -0.9538927066746339,
+      "Green_Cover_Percentage": 0.5588612853250865,
+      "Infrastructure_Density_Calc": -0.7002324792860474,
+      "Traffic_Stress_Index": -0.9538927066746339,
+      "Environmental_Quality_Score": 0.634081848975657,
+      "Quality_of_Life_Index": 1.0,
+      "Literacy_Rate": 0.0311264107476042
+    },
+    "Literacy_Rate": {
+      "Population_Density_Calc": 0.14951050874497337,
+      "AQI": -0.15841525748110444,
+      "Congestion_Index": 0.02441777647109913,
+      "Green_Cover_Percentage": 0.11172592988562298,
+      "Infrastructure_Density_Calc": 0.3821630979917925,
+      "Traffic_Stress_Index": 0.02441777647109913,
+      "Environmental_Quality_Score": 0.15722388645318683,
+      "Quality_of_Life_Index": 0.0311264107476042,
+      "Literacy_Rate": 1.0
+    }
+  },
+  "strong_correlations": {
+    "Population_Density_Calc vs Congestion_Index": 0.979,
+    "Population_Density_Calc vs Infrastructure_Density_Calc": 0.711,
+    "Population_Density_Calc vs Traffic_Stress_Index": 0.979,
+    "Population_Density_Calc vs Quality_of_Life_Index": -0.943,
+    "AQI vs Infrastructure_Density_Calc": 0.567,
+    "AQI vs Environmental_Quality_Score": -0.806,
+    "AQI vs Quality_of_Life_Index": -0.506,
+    "Congestion_Index vs Infrastructure_Density_Calc": 0.662,
+    "Congestion_Index vs Traffic_Stress_Index": 1.0,
+    "Congestion_Index vs Quality_of_Life_Index": -0.954,
+    "Green_Cover_Percentage vs Environmental_Quality_Score": 0.875,
+    "Green_Cover_Percentage vs Quality_of_Life_Index": 0.559,
+    "Infrastructure_Density_Calc vs Traffic_Stress_Index": 0.662,
+    "Infrastructure_Density_Calc vs Quality_of_Life_Index": -0.7,
+    "Traffic_Stress_Index vs Quality_of_Life_Index": -0.954,
+    "Environmental_Quality_Score vs Quality_of_Life_Index": 0.634
+  }
+}

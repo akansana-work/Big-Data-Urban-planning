@@ -1,0 +1,4 @@
+venv/
+data_real/downloads/
+__pycache__/
+*.pyc

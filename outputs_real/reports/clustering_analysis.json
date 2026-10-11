@@ -1,0 +1,143 @@
+{
+  "cluster_statistics": {
+    "Cluster_0": {
+      "count": 7,
+      "percentage": 50.0,
+      "wards": [
+        "Ghole Road",
+        "Warje-Karve Nagar",
+        "Dhole Patil Road",
+        "Yerawada-Sangamwadi",
+        "Nagar Road",
+        "Bibwewadi-Kondhwa",
+        "Hadapsar"
+      ],
+      "feature_means": {
+        "Population_Density_Calc": 11703.689193789989,
+        "Pollution_Load_Index_Calc": 163.55714285714285,
+        "Infrastructure_Density_Calc": 4.42640950436916,
+        "Traffic_Stress_Index": 12.185714285714287,
+        "Environmental_Quality_Score": 5.328571428571428,
+        "Green_Cover_Percentage": 7.014285714285714,
+        "AQI": 96.35714285714288,
+        "Congestion_Index": 12.185714285714287,
+        "Quality_of_Life_Index": 27.560797158718213
+      }
+    },
+    "Cluster_1": {
+      "count": 5,
+      "percentage": 35.714285714285715,
+      "wards": [
+        "Aundh",
+        "Kothrud-Karve Road",
+        "Tilak Road",
+        "Sahakarnagar",
+        "Dhankawadi"
+      ],
+      "feature_means": {
+        "Population_Density_Calc": 17226.714121036606,
+        "Pollution_Load_Index_Calc": 141.16,
+        "Infrastructure_Density_Calc": 4.360725788230983,
+        "Traffic_Stress_Index": 20.66,
+        "Environmental_Quality_Score": 16.110000000000003,
+        "Green_Cover_Percentage": 19.34,
+        "AQI": 87.11999999999999,
+        "Congestion_Index": 20.66,
+        "Quality_of_Life_Index": 30.111113844943105
+      }
+    },
+    "Cluster_2": {
+      "count": 2,
+      "percentage": 14.285714285714285,
+      "wards": [
+        "Kasba-Vishrambaugwada",
+        "Bhavani Peth"
+      ],
+      "feature_means": {
+        "Population_Density_Calc": 57399.66816085948,
+        "Pollution_Load_Index_Calc": 176.8,
+        "Infrastructure_Density_Calc": 17.040214870426897,
+        "Traffic_Stress_Index": 77.15,
+        "Environmental_Quality_Score": 0.775,
+        "Green_Cover_Percentage": 1.05,
+        "AQI": 99.5,
+        "Congestion_Index": 77.15,
+        "Quality_of_Life_Index": 6.866223246248034
+      }
+    }
+  },
+  "cluster_interpretations": {
+    "Cluster_0": {
+      "type": "Cluster (described relative to the ward mean)",
+      "characteristics": [
+        "close to the mean on all indicators"
+      ],
+      "description": "Auto-generated from z-scores against the overall mean."
+    },
+    "Cluster_1": {
+      "type": "Cluster (described relative to the ward mean)",
+      "characteristics": [
+        "low pollution load",
+        "high green cover"
+      ],
+      "description": "Auto-generated from z-scores against the overall mean."
+    },
+    "Cluster_2": {
+      "type": "Cluster (described relative to the ward mean)",
+      "characteristics": [
+        "high population density",
+        "high pollution load",
+        "high congestion proxy",
+        "low green cover",
+        "high amenity density"
+      ],
+      "description": "Auto-generated from z-scores against the overall mean."
+    }
+  },
+  "cluster_centers_analysis": {
+    "Cluster_0": {
+      "ward_count": 7,
+      "percentage": 50.0,
+      "notable_wards": [],
+      "key_characteristics": [
+        "close to the mean on all indicators"
+      ],
+      "planning_recommendations": []
+    },
+    "Cluster_1": {
+      "ward_count": 5,
+      "percentage": 35.7,
+      "notable_wards": [],
+      "key_characteristics": [
+        "low pollution load",
+        "high green cover"
+      ],
+      "planning_recommendations": []
+    },
+    "Cluster_2": {
+      "ward_count": 2,
+      "percentage": 14.3,
+      "notable_wards": [],
+      "key_characteristics": [
+        "high population density",
+        "high pollution load",
+        "high congestion proxy",
+        "low green cover",
+        "high amenity density"
+      ],
+      "planning_recommendations": [
+        "Higher-than-average pollution load: prioritise air-quality monitoring and controls",
+        "High demand on the road network: prioritise public transport and traffic management",
+        "Low green cover: prioritise parks and tree planting"
+      ]
+    }
+  },
+  "analysis_summary": {
+    "total_wards": 14,
+    "n_clusters": 3,
+    "clustering_metrics": {
+      "silhouette_score": 0.2865840866686048,
+      "calinski_score": 7.2264278456226565
+    }
+  }
+}

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_41b7d648a9aee65feee68fe776fdc0dc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+        <div style="position: fixed; 
+                    bottom: 50px; left: 50px; width: 150px; height: 90px; 
+                    background-color: white; border:2px solid grey; z-index:9999; 
+                    font-size:14px; padding: 10px">
+        <p><b>Traffic Congestion</b></p>
+        <p><i class="fa fa-circle" style="color:red"></i> High (>70)</p>
+        <p><i class="fa fa-circle" style="color:orange"></i> Medium (50-70)</p>
+        <p><i class="fa fa-circle" style="color:yellow"></i> Low (30-50)</p>
+        <p><i class="fa fa-circle" style="color:green"></i> Very Low (<30)</p>
+        </div>
+        
+    
+            <div class="folium-map" id="map_41b7d648a9aee65feee68fe776fdc0dc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_41b7d648a9aee65feee68fe776fdc0dc = L.map(
+                "map_41b7d648a9aee65feee68fe776fdc0dc",
+                {
+                    center: [18.5204, 73.8567],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e85ec808580299199696bac188c686a1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e85ec808580299199696bac188c686a1.addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+            var heat_map_8234e20a277c88da62428b55c31c8766 = L.heatLayer(
+                [[18.551087, 73.795003, 0.0], [18.52931, 73.84041, 0.133], [18.509183, 73.795179, 0.20800000000000002], [18.488863, 73.80429, 0.165], [18.526517, 73.903432, 0.078], [18.584067, 73.899628, 0.145], [18.556795, 73.920737, 0.046], [18.511414, 73.853338, 0.5429999999999999], [18.472847, 73.824097, 0.225], [18.489581, 73.85429, 0.455], [18.478976, 73.889705, 0.037000000000000005], [18.510132, 73.86764, 1.0], [18.483163, 73.929856, 0.249], [18.452466, 73.857761, 0.145]],
+                {
+  "minOpacity": 0.3,
+  "maxZoom": 18,
+  "radius": 15,
+  "blur": 10,
+  "gradient": {
+  0.2: "blue",
+  0.4: "lime",
+  0.6: "orange",
+  1: "red",
+},
+}
+            );
+        
+    
+            heat_map_8234e20a277c88da62428b55c31c8766.addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+            var circle_marker_10af7c17c9888be01f625d3137613653 = L.circleMarker(
+                [18.551087, 73.795003],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_e81cc0aebbe6ee697b79c3786d003a20 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_15fe9092cb72f334fef5d400d5e88e5f = $(`<div id="html_15fe9092cb72f334fef5d400d5e88e5f" style="width: 100.0%; height: 100.0%;">                 <b>Aundh</b><br>                 Congestion Index: 0.0<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 0.00                 </div>`)[0];
+                popup_e81cc0aebbe6ee697b79c3786d003a20.setContent(html_15fe9092cb72f334fef5d400d5e88e5f);
+            
+        
+
+        circle_marker_10af7c17c9888be01f625d3137613653.bindPopup(popup_e81cc0aebbe6ee697b79c3786d003a20)
+        ;
+
+        
+    
+    
+            var circle_marker_4e9dfc267fe543c13871f4b84450d9cb = L.circleMarker(
+                [18.52931, 73.84041],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_117fddfbf76b7ff71612912db9b13f9c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d1f86bb2101d57cc72b528e654fb3e8c = $(`<div id="html_d1f86bb2101d57cc72b528e654fb3e8c" style="width: 100.0%; height: 100.0%;">                 <b>Ghole Road</b><br>                 Congestion Index: 13.3<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 13.30                 </div>`)[0];
+                popup_117fddfbf76b7ff71612912db9b13f9c.setContent(html_d1f86bb2101d57cc72b528e654fb3e8c);
+            
+        
+
+        circle_marker_4e9dfc267fe543c13871f4b84450d9cb.bindPopup(popup_117fddfbf76b7ff71612912db9b13f9c)
+        ;
+
+        
+    
+    
+            var circle_marker_1094fab6c4022d0c7c0baf6ff228da65 = L.circleMarker(
+                [18.509183, 73.795179],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_f3d44a88d941914e77ea148dd7ac3557 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9a35118731a49f7ea5009484eb23fdc6 = $(`<div id="html_9a35118731a49f7ea5009484eb23fdc6" style="width: 100.0%; height: 100.0%;">                 <b>Kothrud-Karve Road</b><br>                 Congestion Index: 20.8<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 20.80                 </div>`)[0];
+                popup_f3d44a88d941914e77ea148dd7ac3557.setContent(html_9a35118731a49f7ea5009484eb23fdc6);
+            
+        
+
+        circle_marker_1094fab6c4022d0c7c0baf6ff228da65.bindPopup(popup_f3d44a88d941914e77ea148dd7ac3557)
+        ;
+
+        
+    
+    
+            var circle_marker_f30165226d0735c915bf116fbcff9925 = L.circleMarker(
+                [18.488863, 73.80429],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_1eb6ae9c32474656236f863eafe6bc12 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_388a81b93e3abdb17c84cb31e7798d7e = $(`<div id="html_388a81b93e3abdb17c84cb31e7798d7e" style="width: 100.0%; height: 100.0%;">                 <b>Warje-Karve Nagar</b><br>                 Congestion Index: 16.5<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 16.50                 </div>`)[0];
+                popup_1eb6ae9c32474656236f863eafe6bc12.setContent(html_388a81b93e3abdb17c84cb31e7798d7e);
+            
+        
+
+        circle_marker_f30165226d0735c915bf116fbcff9925.bindPopup(popup_1eb6ae9c32474656236f863eafe6bc12)
+        ;
+
+        
+    
+    
+            var circle_marker_fecbc30512f24b5c058f7ddeadec2bb8 = L.circleMarker(
+                [18.526517, 73.903432],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_e4dfe8bb8432acad2e53a8e3fa6b267b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e45d40f042f552bdf1fd0a090a6de480 = $(`<div id="html_e45d40f042f552bdf1fd0a090a6de480" style="width: 100.0%; height: 100.0%;">                 <b>Dhole Patil Road</b><br>                 Congestion Index: 7.8<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 7.80                 </div>`)[0];
+                popup_e4dfe8bb8432acad2e53a8e3fa6b267b.setContent(html_e45d40f042f552bdf1fd0a090a6de480);
+            
+        
+
+        circle_marker_fecbc30512f24b5c058f7ddeadec2bb8.bindPopup(popup_e4dfe8bb8432acad2e53a8e3fa6b267b)
+        ;
+
+        
+    
+    
+            var circle_marker_6ed2d9f53799cea47e6c9567f3c9ffd2 = L.circleMarker(
+                [18.584067, 73.899628],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_fe7c7348723138a8a7c872d6c532fecb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_903356aadf988272360d0c2794c622e8 = $(`<div id="html_903356aadf988272360d0c2794c622e8" style="width: 100.0%; height: 100.0%;">                 <b>Yerawada-Sangamwadi</b><br>                 Congestion Index: 14.5<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 14.50                 </div>`)[0];
+                popup_fe7c7348723138a8a7c872d6c532fecb.setContent(html_903356aadf988272360d0c2794c622e8);
+            
+        
+
+        circle_marker_6ed2d9f53799cea47e6c9567f3c9ffd2.bindPopup(popup_fe7c7348723138a8a7c872d6c532fecb)
+        ;
+
+        
+    
+    
+            var circle_marker_dd8108c7f51ca68b586f20c04ff156bb = L.circleMarker(
+                [18.556795, 73.920737],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_1edaf5012a41a64b5572223b5cf0d596 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_101aec66684a67c3cffca4bd6631d39c = $(`<div id="html_101aec66684a67c3cffca4bd6631d39c" style="width: 100.0%; height: 100.0%;">                 <b>Nagar Road</b><br>                 Congestion Index: 4.6<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 4.60                 </div>`)[0];
+                popup_1edaf5012a41a64b5572223b5cf0d596.setContent(html_101aec66684a67c3cffca4bd6631d39c);
+            
+        
+
+        circle_marker_dd8108c7f51ca68b586f20c04ff156bb.bindPopup(popup_1edaf5012a41a64b5572223b5cf0d596)
+        ;
+
+        
+    
+    
+            var circle_marker_59a699769f0a8922eebe098c573041bb = L.circleMarker(
+                [18.511414, 73.853338],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_5ce00322c9865e8ce2dec9f266fcbf62 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cc32abda4132a9ed1ac78943e61aff79 = $(`<div id="html_cc32abda4132a9ed1ac78943e61aff79" style="width: 100.0%; height: 100.0%;">                 <b>Kasba-Vishrambaugwada</b><br>                 Congestion Index: 54.3<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 54.30                 </div>`)[0];
+                popup_5ce00322c9865e8ce2dec9f266fcbf62.setContent(html_cc32abda4132a9ed1ac78943e61aff79);
+            
+        
+
+        circle_marker_59a699769f0a8922eebe098c573041bb.bindPopup(popup_5ce00322c9865e8ce2dec9f266fcbf62)
+        ;
+
+        
+    
+    
+            var circle_marker_bd62bf5a536d47b5ed63d4b0280305c2 = L.circleMarker(
+                [18.472847, 73.824097],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_22237ec1fa17f2591a2562d3346ec59c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ce2b6357d516195ebf09861428adeffb = $(`<div id="html_ce2b6357d516195ebf09861428adeffb" style="width: 100.0%; height: 100.0%;">                 <b>Tilak Road</b><br>                 Congestion Index: 22.5<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 22.50                 </div>`)[0];
+                popup_22237ec1fa17f2591a2562d3346ec59c.setContent(html_ce2b6357d516195ebf09861428adeffb);
+            
+        
+
+        circle_marker_bd62bf5a536d47b5ed63d4b0280305c2.bindPopup(popup_22237ec1fa17f2591a2562d3346ec59c)
+        ;
+
+        
+    
+    
+            var circle_marker_c788017066d411c725fa92990f415d30 = L.circleMarker(
+                [18.489581, 73.85429],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_24db5bac82412e4f6004496cd499437d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_16ac8b25b84fe765829f630ccc0a8028 = $(`<div id="html_16ac8b25b84fe765829f630ccc0a8028" style="width: 100.0%; height: 100.0%;">                 <b>Sahakarnagar</b><br>                 Congestion Index: 45.5<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 45.50                 </div>`)[0];
+                popup_24db5bac82412e4f6004496cd499437d.setContent(html_16ac8b25b84fe765829f630ccc0a8028);
+            
+        
+
+        circle_marker_c788017066d411c725fa92990f415d30.bindPopup(popup_24db5bac82412e4f6004496cd499437d)
+        ;
+
+        
+    
+    
+            var circle_marker_d7bffc8c4b6c86ce780513273caeaf45 = L.circleMarker(
+                [18.478976, 73.889705],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_d8af656bc0e98f77a5e78012d91aec5f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cbbbd9433c50d657518e5255f5e76c8b = $(`<div id="html_cbbbd9433c50d657518e5255f5e76c8b" style="width: 100.0%; height: 100.0%;">                 <b>Bibwewadi-Kondhwa</b><br>                 Congestion Index: 3.7<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 3.70                 </div>`)[0];
+                popup_d8af656bc0e98f77a5e78012d91aec5f.setContent(html_cbbbd9433c50d657518e5255f5e76c8b);
+            
+        
+
+        circle_marker_d7bffc8c4b6c86ce780513273caeaf45.bindPopup(popup_d8af656bc0e98f77a5e78012d91aec5f)
+        ;
+
+        
+    
+    
+            var circle_marker_2bf8004eeb8dd1670379ba58142f0e3b = L.circleMarker(
+                [18.510132, 73.86764],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_16f55550a6752b2d35a04104f83c62c4 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_978d417a276230b2e59d82a32aa30089 = $(`<div id="html_978d417a276230b2e59d82a32aa30089" style="width: 100.0%; height: 100.0%;">                 <b>Bhavani Peth</b><br>                 Congestion Index: 100.0<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 100.00                 </div>`)[0];
+                popup_16f55550a6752b2d35a04104f83c62c4.setContent(html_978d417a276230b2e59d82a32aa30089);
+            
+        
+
+        circle_marker_2bf8004eeb8dd1670379ba58142f0e3b.bindPopup(popup_16f55550a6752b2d35a04104f83c62c4)
+        ;
+
+        
+    
+    
+            var circle_marker_eee3b0a37a60cd69b319f66107d3c154 = L.circleMarker(
+                [18.483163, 73.929856],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_5284a3e0a864b250fe7ada9d6a8b9eb0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_49e26d4bc02143d2f263dc05a122c67d = $(`<div id="html_49e26d4bc02143d2f263dc05a122c67d" style="width: 100.0%; height: 100.0%;">                 <b>Hadapsar</b><br>                 Congestion Index: 24.9<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 24.90                 </div>`)[0];
+                popup_5284a3e0a864b250fe7ada9d6a8b9eb0.setContent(html_49e26d4bc02143d2f263dc05a122c67d);
+            
+        
+
+        circle_marker_eee3b0a37a60cd69b319f66107d3c154.bindPopup(popup_5284a3e0a864b250fe7ada9d6a8b9eb0)
+        ;
+
+        
+    
+    
+            var circle_marker_190e756bfce710ef9fc5d95ba2eee2d8 = L.circleMarker(
+                [18.452466, 73.857761],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 1}
+            ).addTo(map_41b7d648a9aee65feee68fe776fdc0dc);
+        
+    
+        var popup_fa49d2f8554d2dff5fd5c62dadc907ca = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6488af8c9dd1117e1f70d9e29b893c03 = $(`<div id="html_6488af8c9dd1117e1f70d9e29b893c03" style="width: 100.0%; height: 100.0%;">                 <b>Dhankawadi</b><br>                 Congestion Index: 14.5<br>                 Peak Hour Volume: N/A<br>                 Avg Speed: N/A km/h<br>                 Traffic Stress: 14.50                 </div>`)[0];
+                popup_fa49d2f8554d2dff5fd5c62dadc907ca.setContent(html_6488af8c9dd1117e1f70d9e29b893c03);
+            
+        
+
+        circle_marker_190e756bfce710ef9fc5d95ba2eee2d8.bindPopup(popup_fa49d2f8554d2dff5fd5c62dadc907ca)
+        ;
+
+        
+    
+</script>
+</html>

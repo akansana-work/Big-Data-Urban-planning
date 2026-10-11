@@ -1,0 +1,15 @@
+Ward_ID,Ward_Name,PM2_5,PM10,NO2,AQI,Pollution_Load_Index,Nearest_Station,Nearest_Station_km
+PMC_01,Aundh,35.9,80.7,24.0,84.8,140.6,Panchawati-Pashan (IITM),2.91
+PMC_02,Ghole Road,46.5,92.8,52.3,105.3,191.6,Revenue Colony-Shivajinagar (IITM),0.92
+PMC_03,Kothrud-Karve Road,37.3,83.1,20.2,88.9,140.6,Panchawati-Pashan (IITM),2.99
+PMC_04,Warje-Karve Nagar,40.5,89.0,12.8,98.5,142.2,Karve Road (MPCB),0.95
+PMC_05,Dhole Patil Road,41.8,89.1,37.3,96.5,168.2,Hadapsar (IITM),4.62
+PMC_06,Yerawada-Sangamwadi,40.4,87.2,33.7,94.0,161.3,Revenue Colony-Shivajinagar (IITM),8.05
+PMC_07,Nagar Road,41.2,88.6,35.1,95.4,164.8,Hadapsar (IITM),6.46
+PMC_08,Kasba-Vishrambaugwada,44.2,90.0,45.6,100.7,179.8,Revenue Colony-Shivajinagar (IITM),2.06
+PMC_09,Tilak Road,39.0,85.6,15.9,93.0,140.5,Karve Road (MPCB),2.17
+PMC_10,Sahakarnagar,39.3,83.9,28.6,90.1,151.7,Dhankawadi (IITM),2.71
+PMC_11,Bibwewadi-Kondhwa,39.0,84.2,28.2,89.1,151.5,Dhankawadi (IITM),4.44
+PMC_12,Bhavani Peth,43.0,88.8,42.0,98.3,173.8,Revenue Colony-Shivajinagar (IITM),2.9
+PMC_13,Hadapsar,41.6,90.9,32.7,95.7,165.2,Hadapsar (IITM),2.13
+PMC_14,Dhankawadi,34.6,77.1,20.6,78.8,132.3,Katraj Dairy (MPCB),0.46

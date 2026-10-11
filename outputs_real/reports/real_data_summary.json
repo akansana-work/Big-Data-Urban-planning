@@ -1,0 +1,123 @@
+{
+  "generated_at": "2026-10-11T23:27:43",
+  "wards": 14,
+  "k": 3,
+  "silhouette_by_k": {
+    "2": 0.384,
+    "3": 0.287,
+    "4": 0.255,
+    "5": 0.283,
+    "6": 0.246,
+    "7": 0.197,
+    "8": 0.125
+  },
+  "pca_components": 4,
+  "pca_variance": 0.9348,
+  "stability_ari_mean": 1.0,
+  "stability_ari_min": 1.0,
+  "correlations": [
+    {
+      "pair": "Congestion_Index vs PM2_5",
+      "pearson_r": 0.356,
+      "pearson_p": 0.2109,
+      "spearman_rho": 0.315,
+      "spearman_p": 0.2727,
+      "n": 14
+    },
+    {
+      "pair": "Congestion_Index vs AQI",
+      "pearson_r": 0.303,
+      "pearson_p": 0.2918,
+      "spearman_rho": 0.323,
+      "spearman_p": 0.2593,
+      "n": 14
+    },
+    {
+      "pair": "Population_Density_Calc vs Pollution_Load_Index_Calc",
+      "pearson_r": 0.331,
+      "pearson_p": 0.247,
+      "spearman_rho": 0.143,
+      "spearman_p": 0.6257,
+      "n": 14
+    },
+    {
+      "pair": "Green_Cover_Percentage vs Pollution_Load_Index_Calc",
+      "pearson_r": -0.558,
+      "pearson_p": 0.0382,
+      "spearman_rho": -0.568,
+      "spearman_p": 0.0342,
+      "n": 14
+    }
+  ],
+  "clusters": {
+    "0": {
+      "label": "Intermediate group",
+      "Population_Density_Calc": 11703.7,
+      "Pollution_Load_Index_Calc": 163.6,
+      "Traffic_Stress_Index": 12.2,
+      "Green_Cover_Percentage": 7.0,
+      "Infrastructure_Density_Calc": 4.4,
+      "AQI": 96.4,
+      "PM2_5": 41.6,
+      "Literacy_Rate": 88.9,
+      "wards": "Ghole Road, Warje-Karve Nagar, Dhole Patil Road, Yerawada-Sangamwadi, Nagar Road, Bibwewadi-Kondhwa, Hadapsar",
+      "n": 7,
+      "mean_stress": -0.04
+    },
+    "1": {
+      "label": "Lowest-stress group",
+      "Population_Density_Calc": 17226.7,
+      "Pollution_Load_Index_Calc": 141.2,
+      "Traffic_Stress_Index": 20.7,
+      "Green_Cover_Percentage": 19.3,
+      "Infrastructure_Density_Calc": 4.4,
+      "AQI": 87.1,
+      "PM2_5": 37.2,
+      "Literacy_Rate": 90.1,
+      "wards": "Aundh, Kothrud-Karve Road, Tilak Road, Sahakarnagar, Dhankawadi",
+      "n": 5,
+      "mean_stress": -0.6
+    },
+    "2": {
+      "label": "Highest-stress group",
+      "Population_Density_Calc": 57399.7,
+      "Pollution_Load_Index_Calc": 176.8,
+      "Traffic_Stress_Index": 77.2,
+      "Green_Cover_Percentage": 1.0,
+      "Infrastructure_Density_Calc": 17.0,
+      "AQI": 99.5,
+      "PM2_5": 43.6,
+      "Literacy_Rate": 90.8,
+      "wards": "Kasba-Vishrambaugwada, Bhavani Peth",
+      "n": 2,
+      "mean_stress": 1.64
+    }
+  },
+  "top_stress_wards": [
+    {
+      "Ward_Name": "Bhavani Peth",
+      "Stress_Score": 1.9900502541433236,
+      "Cluster": 2
+    },
+    {
+      "Ward_Name": "Kasba-Vishrambaugwada",
+      "Stress_Score": 1.287900488986107,
+      "Cluster": 2
+    },
+    {
+      "Ward_Name": "Hadapsar",
+      "Stress_Score": 0.36610315072786304,
+      "Cluster": 0
+    },
+    {
+      "Ward_Name": "Ghole Road",
+      "Stress_Score": 0.22269049039405636,
+      "Cluster": 0
+    },
+    {
+      "Ward_Name": "Sahakarnagar",
+      "Stress_Score": 0.06897541250190031,
+      "Cluster": 1
+    }
+  ]
+}

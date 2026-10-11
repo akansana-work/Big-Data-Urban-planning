@@ -1,0 +1,44 @@
+{
+  "revenue_colony_shivajinagar": {
+    "query": "Revenue Colony, Shivajinagar, Pune",
+    "lat": 18.5295572,
+    "lon": 73.8491406,
+    "matched": "Shimla Office Meteorological Department, Revenue Colony, Ganeshkhind Road, Shivajinagar, Pune, Pune City Subdistrict, Pune, Maharashtra, 411005, India"
+  },
+  "karve_road": {
+    "query": "Karve Road, Pune",
+    "lat": 18.4803049,
+    "lon": 73.8051075,
+    "matched": "Karve Road, Warje, Anandnagar, Pune City Subdistrict, Pune, Maharashtra, 411051, India"
+  },
+  "sppu": {
+    "query": "Savitribai Phule Pune University",
+    "lat": 18.5528441,
+    "lon": 73.8266441,
+    "matched": "Savitribai Phule Pune University, Ganeshkhind Road, Model Colony, Pune, Pune City Subdistrict, Pune, Maharashtra, 411007, India"
+  },
+  "pashan": {
+    "query": "Panchawati, Pashan, Pune",
+    "lat": 18.5306136,
+    "lon": 73.8123508,
+    "matched": "Panchawati, Pashan, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India"
+  },
+  "hadapsar": {
+    "query": "Hadapsar, Pune",
+    "lat": 18.5007741,
+    "lon": 73.9379146,
+    "matched": "Hadapsar, Pune, Pune City Subdistrict, Pune, Maharashtra, 411001, India"
+  },
+  "katraj_dairy": {
+    "query": "Katraj Dairy, Pune",
+    "lat": 18.4542431,
+    "lon": 73.8538732,
+    "matched": "katraj dairy, Katraj - Dehu Road Bypass, Katraj, Pune, Pune City Subdistrict, Pune, Maharashtra, 411046, India"
+  },
+  "dhankawadi": {
+    "query": "Dhankawadi, Pune",
+    "lat": 18.4654198,
+    "lon": 73.850152,
+    "matched": "Dhankawadi, Gulab Nagar Road, Katraj, Pune, Pune City Subdistrict, Pune, Maharashtra, 411046, India"
+  }
+}

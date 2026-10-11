@@ -1,0 +1,15 @@
+Ward_ID,Ward_Name,Area_sqkm,Center_Latitude,Center_Longitude,Ward_Type,Development_Level
+PMC_01,Aundh,40.03,18.551087,73.795003,administrative_ward_office,not_classified
+PMC_02,Ghole Road,14.47,18.52931,73.84041,administrative_ward_office,not_classified
+PMC_03,Kothrud-Karve Road,16.37,18.509183,73.795179,administrative_ward_office,not_classified
+PMC_04,Warje-Karve Nagar,14.67,18.488863,73.80429,administrative_ward_office,not_classified
+PMC_05,Dhole Patil Road,18.06,18.526517,73.903432,administrative_ward_office,not_classified
+PMC_06,Yerawada-Sangamwadi,33.37,18.584067,73.899628,administrative_ward_office,not_classified
+PMC_07,Nagar Road,25.68,18.556795,73.920737,administrative_ward_office,not_classified
+PMC_08,Kasba-Vishrambaugwada,3.91,18.511414,73.853338,administrative_ward_office,not_classified
+PMC_09,Tilak Road,16.24,18.472847,73.824097,administrative_ward_office,not_classified
+PMC_10,Sahakarnagar,6.11,18.489581,73.85429,administrative_ward_office,not_classified
+PMC_11,Bibwewadi-Kondhwa,30.01,18.478976,73.889705,administrative_ward_office,not_classified
+PMC_12,Bhavani Peth,2.79,18.510132,73.86764,administrative_ward_office,not_classified
+PMC_13,Hadapsar,17.65,18.483163,73.929856,administrative_ward_office,not_classified
+PMC_14,Dhankawadi,11.67,18.452466,73.857761,administrative_ward_office,not_classified
